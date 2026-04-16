@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "Gaurav Goswami",
     role: "Founder & Lead Consultant",
-    image: "/images/gaurav-founder.png",
+    image: "/images/gaurav2.png",
     bio: "Founded by Gaurav Goswami, an MBA in Marketing with a deep-rooted background in business development and strategic consultancy. With a track record of fostering client relationships at T R Chadha & Co LLP, Gaurav combines analytical commerce expertise with creative leadership to drive The Koshish Kompany toward persistent growth.",
     certifications: ["MBA - Marketing", "Six Sigma", "Business Analytics", "Digital Marketing"],
     quote: "Every effort — every Koshish — brings us closer to our goals.",
@@ -21,7 +21,7 @@ const teamMembers = [
   {
     name: "MD Afroz Ansari",
     role: "Additional Director / Director of Data & Digital Strategy",
-    image: "/images/afroz.png",
+    image: "/images/afroz.jpeg",
     bio: "Afroz is the analytical engine of the company, combining his background in Information Technology with an advanced pursuit of a master's in computer applications. A certified expert in Power BI, SQL, and Machine Learning, he specializes in turning fragmented data into interactive business intelligence. As the lead developer of our digital infrastructure and a former AI Club Secretary, Afroz ensures our company remains data-informed and technologically agile.",
     certifications: ["Power BI", "SQL", "Machine Learning", "MCA - IT"],
     quote: "Data is the new compass — it tells you exactly where you are and where to go.",
