@@ -1,0 +1,81 @@
+Create a modern, fully responsive full-stack corporate website for "The Koshish Kompany", an Edutech and Consultancy firm based in India.
+
+Tech Stack:
+- Frontend: React with TypeScript and Tailwind CSS (using Vite).
+- Routing: React Router for navigation.
+- Backend: Node.js with Express.
+- Database: PostgreSQL with Drizzle ORM.
+- Validation: Zod for API input validation.
+- Email Notifications: Nodemailer.
+- Deployment-ready configuration with environment variables.
+
+Branding:
+- Color Palette: Navy Blue (#1E3A8A), Gold (#D4AF37), White (#FFFFFF), Light Gray (#F8F9FA).
+- Typography: Clean and professional (e.g., Poppins or Inter).
+- Fully responsive and mobile-first design.
+- Sticky navigation bar with the company logo on the top-left.
+- Floating WhatsApp button linking to: https://wa.me/916204077451?text=Hello%20I%20would%20like%20to%20know%20more%20about%20your%20services
+
+Pages and Content:
+
+1. Home Page:
+   - Hero section with headline: "Empowering Success Through Education & Consulting".
+   - Include a notice-board style banner celebrating the company’s 1st anniversary on 2nd April.
+   - Founder Spotlight featuring:
+     Name: Gaurav Goswami – Founder & CEO.
+     Include his photo and the provided detailed biography.
+   - Services overview with cards for:
+     • College Project Guidance
+     • Career Training & Interview Preparation
+     • ITR & GST Filing
+     • Business/Startup Consulting
+     • Anchoring for Corporate Events
+   - Call-to-action buttons: "Contact Us" and "Chat on WhatsApp".
+   - Footer with social links and copyright.
+
+2. About Page:
+   - Company background describing its founding in 2025 and the meaning of “Koshish”.
+   - Mission, Vision, and Core Values.
+   - Board of Members with images and biographies:
+     • Gaurav Goswami – Founder & Lead Consultant
+     • Yogesh Singh Nayal – Technical Director
+     • MD Afroz Ansari – Director of Data & Digital Strategy
+
+3. Services Page:
+   - Detailed descriptions of each service.
+   - Pricing table:
+       Consulting – ₹100 onwards
+       ITR & GST – ₹1000 onwards
+       Bachelor’s Projects – ₹1500 onwards
+       Master’s/Postgraduate Projects – ₹2000 onwards
+       Event Anchoring (Mumbai & Bangalore) – ₹2000 onwards
+   - “Enquire Now” buttons linking to WhatsApp or the contact page.
+
+4. Testimonials Page:
+   - Display 3–4 placeholder testimonials with client names.
+   - Backend endpoint POST /api/testimonial for future expansion.
+
+5. Contact Page:
+   - Contact form with fields: Name, Email, Phone, Message.
+   - Backend endpoint POST /api/contact to store submissions in PostgreSQL.
+   - Send email notifications to thekoshishkompany@gmail.com using Nodemailer.
+   - Display success confirmation after submission.
+   - Contact details:
+       Phone: +91 6204077451
+       Email: thekoshishkompany@gmail.com
+       Address: Virtual Offices in Mumbai & Bangalore, India
+       Instagram: https://www.instagram.com/thekoshishkompany
+
+Database Schema:
+- contacts: id, name, email, phone, message, created_at
+- testimonials: id, client_name, role, content, photo_url, created_at
+
+SEO & Accessibility:
+- Unique meta titles and descriptions for each page.
+- Open Graph tags for social sharing.
+- Semantic HTML and alt text for all images.
+
+Additional Requirements:
+- Store editable content (services, team members, testimonials) in separate JSON files.
+- Include a README with setup and deployment instructions.
+- Ensure clean, well-commented, and maintainable code.
