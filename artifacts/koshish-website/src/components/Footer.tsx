@@ -12,7 +12,7 @@ export default function Footer() {
               <img
                 src="/images/logo.png"
                 alt="The Koshish Kompany"
-                className="h-24 w-24 object-contain"
+                className="h-48 w-48 object-contain"
               />
               <div>
                 <div className="font-bold text-lg leading-tight text-white font-poppins">

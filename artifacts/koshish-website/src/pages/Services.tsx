@@ -91,12 +91,12 @@ const services = [
     iconBg: "bg-red-500",
     tagline: "Make your events unforgettable",
     description:
-      "Professional event anchoring services for corporate events, seminars, conferences, parties, Birthdays and product launches. Available both virtually and physically in Mumbai.",
+      "Professional event anchoring services for corporate events, Shaadi Event, conferences, parties, Birthdays and Reception Events. Available both virtually and physically in Mumbai.",
     features: [
       "Corporate events, seminars and Parties",
-      "Product launches and brand activations",
+      "Birthday or any kind of Celebrations",
       "Virtual events and webinars",
-      "Award ceremonies and conferences",
+      "Shaadi or Receptions Events Celebrations",
       "Bilingual anchoring (English & Hindi)",
     ],
     pricing: [

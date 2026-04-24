@@ -33,7 +33,7 @@ const services = [
   {
     icon: Mic2,
     title: "Event Anchoring",
-    desc: "Professional anchoring for events — virtual and physically at Bangalore & Mumbai.",
+    desc: "Professional anchoring for events — virtual and physically at Mumbai.",
     color: "bg-red-50",
     iconColor: "text-red-600",
   },
@@ -115,7 +115,7 @@ export default function Home() {
               <img
                 src="/images/anniversary.jpeg"
                 alt="The Koshish Kompany 1st Anniversary - Gaurav Goswami Founder & CEO"
-                className="relative z-10 rounded-2xl shadow-2xl max-w-sm w-full object-cover border-2 border-[#D4AF37]/30"
+                className="relative z-10 rounded-2xl shadow-2xl max-w-2xl w-full object-cover border-2 border-[#D4AF37]/30"
               />
               <div className="absolute -bottom-4 -right-4 bg-[#D4AF37] text-[#1E3A8A] rounded-xl px-4 py-2 font-bold text-sm shadow-lg z-20">
                 🎉 1 Year Anniversary — April 2025
