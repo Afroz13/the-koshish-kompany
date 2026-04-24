@@ -196,7 +196,7 @@ export default function About() {
                   <img
                     src={member.image}
                     alt={`${member.name} - ${member.role}`}
-                    className="w-full h-72 lg:h-full object-cover object-top"
+                    className="w-full h-72 lg:h-full object-scale-down lg:object-cover object-top bg-gray-100"
                   />
                 </div>
                 <div className="p-8 flex flex-col justify-center flex-1">
