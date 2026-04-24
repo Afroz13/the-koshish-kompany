@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "Gaurav Goswami",
     role: "Founder & Lead Consultant",
-    image: "/images/gaurav2.png",
+    image: "/images/gaurav-founder.png",
     bio: "Founded by Gaurav Goswami, an MBA in Marketing with a deep-rooted background in business development and strategic consultancy. With a track record of fostering client relationships at T R Chadha & Co LLP, Gaurav combines analytical commerce expertise with creative leadership to drive The Koshish Kompany toward persistent growth.",
     certifications: ["MBA - Marketing", "Six Sigma", "Business Analytics", "Digital Marketing"],
     quote: "Every effort — every Koshish — brings us closer to our goals.",
@@ -13,7 +13,7 @@ const teamMembers = [
   {
     name: "Yogesh Singh Nayal",
     role: "Additional Director / Technical Director",
-    image: "/images/yogesh.png",
+    image: "/images/yogesh.jpg",
     bio: "A tech-visionary and award-winning engineer, Yogesh leads our technological roadmap. With a background in Computer Science and a distinguished career—where he pioneered AI-driven intelligence platforms for thousands of enterprise contracts—he specializes in Python, Generative AI, and scalable cloud architecture. Yogesh's expertise in RAG and LLM integration ensures our company remains at the forefront of the AI revolution.",
     certifications: ["Web Develpoer", "Computer Science", "Python & AI", "Cloud Architecture", "AI Platforms"],
     quote: "Technology is the bridge between ambition and achievement.",
@@ -21,7 +21,7 @@ const teamMembers = [
   {
     name: "MD Afroz Ansari",
     role: "Additional Director / Director of Data & Digital Strategy",
-    image: "/images/afroz.jpeg",
+    image: "/images/afroz.png",
     bio: "Afroz is the analytical engine of the company, combining his background in Information Technology with an advanced pursuit of a master's in computer applications. A certified expert in Power BI, SQL, and Machine Learning, he specializes in turning fragmented data into interactive business intelligence. As the lead developer of our digital infrastructure and a former AI Club Secretary, Afroz ensures our company remains data-informed and technologically agile.",
     certifications: ["Data Analyst","Power BI", "Excel", "Machine Learning", "MCA - IT, Generative AI"],
     quote: "Data is the new compass — it tells you exactly where you are and where to go.",
