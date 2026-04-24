@@ -32,7 +32,7 @@ const services = [
   },
   {
     icon: Mic2,
-    title: "Corporate Event Anchoring",
+    title: "Event Anchoring",
     desc: "Professional anchoring for events — virtual and physically at Bangalore & Mumbai.",
     color: "bg-red-50",
     iconColor: "text-red-600",

@@ -85,22 +85,22 @@ const services = [
   },
   {
     icon: Mic2,
-    title: "Corporate Event Anchoring",
+    title: "Event Anchoring",
     slug: "anchoring",
     color: "border-red-200 bg-red-50",
     iconBg: "bg-red-500",
     tagline: "Make your events unforgettable",
     description:
-      "Professional event anchoring services for corporate events, seminars, conferences, and product launches. Available both virtually and physically in Bangalore and Mumbai.",
+      "Professional event anchoring services for corporate events, seminars, conferences, parties, Birthdays and product launches. Available both virtually and physically in Mumbai.",
     features: [
-      "Corporate events and seminars",
+      "Corporate events, seminars and Parties",
       "Product launches and brand activations",
       "Virtual events and webinars",
       "Award ceremonies and conferences",
       "Bilingual anchoring (English & Hindi)",
     ],
     pricing: [
-      { label: "Event Anchoring (Bangalore & Mumbai, Virtual)", price: "₹2,000 onwards" },
+      { label: "Event Anchoring ( Mumbai and Virtual)", price: "₹2,000 onwards" },
     ],
   },
 ];
@@ -110,15 +110,19 @@ const pricingTable = [
   { service: "ITR & GST Filing", price: "₹1,000 onwards" },
   { service: "Bachelor's Degree Projects", price: "₹1,500 onwards" },
   { service: "Master's / PG Projects", price: "₹2,000 onwards" },
-  { service: "Corporate Event Anchoring", price: "₹2,000 onwards" },
+  { service: "Event Anchoring", price: "₹2,000 onwards" },
 ];
 
 export default function Services() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero */}
-      <section className="hero-gradient py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section
+        className="relative py-24 lg:py-32 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/services.jpeg')" }}
+      >
+        <div className="absolute inset-0 bg-[#1E3A8A]/70" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-[#D4AF37]/20 border border-[#D4AF37]/30 rounded-full px-4 py-1.5 mb-6">
             <span className="text-[#D4AF37] text-sm font-medium">What We Offer</span>
           </div>

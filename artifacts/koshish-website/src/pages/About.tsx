@@ -14,8 +14,8 @@ const teamMembers = [
     name: "Yogesh Singh Nayal",
     role: "Additional Director / Technical Director",
     image: "/images/yogesh.png",
-    bio: "A tech-visionary and award-winning engineer, Yogesh leads our technological roadmap. With a background in Computer Science and a distinguished career at TCS — where he pioneered AI-driven intelligence platforms for thousands of enterprise contracts — he specializes in Python, Generative AI, and scalable cloud architecture. Yogesh's expertise in RAG and LLM integration ensures our company remains at the forefront of the AI revolution.",
-    certifications: ["Computer Science", "Python & AI", "Cloud Architecture", "TCS - AI Platforms"],
+    bio: "A tech-visionary and award-winning engineer, Yogesh leads our technological roadmap. With a background in Computer Science and a distinguished career—where he pioneered AI-driven intelligence platforms for thousands of enterprise contracts—he specializes in Python, Generative AI, and scalable cloud architecture. Yogesh's expertise in RAG and LLM integration ensures our company remains at the forefront of the AI revolution.",
+    certifications: ["Web Develpoer", "Computer Science", "Python & AI", "Cloud Architecture", "AI Platforms"],
     quote: "Technology is the bridge between ambition and achievement.",
   },
   {
@@ -23,7 +23,7 @@ const teamMembers = [
     role: "Additional Director / Director of Data & Digital Strategy",
     image: "/images/afroz.jpeg",
     bio: "Afroz is the analytical engine of the company, combining his background in Information Technology with an advanced pursuit of a master's in computer applications. A certified expert in Power BI, SQL, and Machine Learning, he specializes in turning fragmented data into interactive business intelligence. As the lead developer of our digital infrastructure and a former AI Club Secretary, Afroz ensures our company remains data-informed and technologically agile.",
-    certifications: ["Power BI", "SQL", "Machine Learning", "MCA - IT"],
+    certifications: ["Data Analyst","Power BI", "Excel", "Machine Learning", "MCA - IT, Generative AI"],
     quote: "Data is the new compass — it tells you exactly where you are and where to go.",
   },
 ];
@@ -70,8 +70,12 @@ export default function About() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero */}
-      <section className="hero-gradient py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section
+        className="relative py-24 lg:py-32 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/About_01.jpeg')" }}
+      >
+        <div className="absolute inset-0 bg-[#1E3A8A]/70" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-[#D4AF37]/20 border border-[#D4AF37]/30 rounded-full px-4 py-1.5 mb-6">
             <span className="text-[#D4AF37] text-sm font-medium">Our Story</span>
           </div>

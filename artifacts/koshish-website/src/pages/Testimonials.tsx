@@ -3,14 +3,14 @@ import { Star, Quote, ChevronRight, MessageSquare } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Priya Sharma",
-    role: "MBA Student, Pune University",
+    name: "Suchitra Sharma",
+    role: "MBA Student,Bangalore",
     content:
       "The Koshish Kompany helped me complete my MBA thesis on time. Gaurav sir's guidance on the research methodology and presentation was exceptional. I scored a distinction!",
     rating: 5,
     service: "Project Guidance",
     avatar: null,
-    initials: "PS",
+    initials: "SS",
     color: "bg-blue-600",
   },
   {
@@ -25,14 +25,14 @@ const testimonials = [
     color: "bg-green-600",
   },
   {
-    name: "Sneha Patel",
-    role: "BBA Student, NMIMS Mumbai",
+    name: "Anshu Patel",
+    role: "BBA Student, Vizag",
     content:
       "I had my placement interviews coming up and had no idea how to prepare. The mock interviews and resume review sessions by The Koshish Kompany transformed my confidence. Got placed at my dream company!",
-    rating: 5,
+    rating: 4,
     service: "Career Training",
     avatar: null,
-    initials: "SP",
+    initials: "AP",
     color: "bg-purple-600",
   },
   {
@@ -58,14 +58,14 @@ const testimonials = [
     color: "bg-rose-600",
   },
   {
-    name: "Mohammed Faiz",
-    role: "B.Tech Final Year, Delhi",
+    name: "Vivian Kumar",
+    role: "MBA, Bangalore",
     content:
-      "Getting my engineering final year project done with their help was a game changer. They guided me through the literature review, implementation, and even helped with the abstract. Truly professional service!",
-    rating: 5,
+      "Getting my MBA final year project done with their help was a game changer. They guided me through the literature review, implementation, and even helped with the abstract. Truly professional service!",
+    rating: 4.5,
     service: "Project Guidance",
     avatar: null,
-    initials: "MF",
+    initials: "VK",
     color: "bg-indigo-600",
   },
 ];
@@ -74,8 +74,12 @@ export default function Testimonials() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero */}
-      <section className="hero-gradient py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section
+        className="relative py-24 lg:py-32 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/Testimony_01.jpeg')" }}
+      >
+        <div className="absolute inset-0 bg-[#1E3A8A]/70" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-[#D4AF37]/20 border border-[#D4AF37]/30 rounded-full px-4 py-1.5 mb-6">
             <Star className="h-3 w-3 text-[#D4AF37]" fill="currentColor" />
             <span className="text-[#D4AF37] text-sm font-medium">Client Reviews</span>

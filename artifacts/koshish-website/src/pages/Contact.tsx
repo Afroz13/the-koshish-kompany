@@ -77,8 +77,12 @@ export default function Contact() {
   return (
     <div className="pt-16 lg:pt-20">
       {/* Hero */}
-      <section className="hero-gradient py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section
+        className="relative pt-24 lg:pt-32 pb-48 lg:pb-56 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/Contact_01.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-[#1E3A8A]/70" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 bg-[#D4AF37]/20 border border-[#D4AF37]/30 rounded-full px-4 py-1.5 mb-6">
             <span className="text-[#D4AF37] text-sm font-medium">Get In Touch</span>
           </div>
@@ -92,8 +96,8 @@ export default function Contact() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-[#f8f9fa]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="pb-20 bg-[#f8f9fa]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-32 lg:-mt-40 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div>
