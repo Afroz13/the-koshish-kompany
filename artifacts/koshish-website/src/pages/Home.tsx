@@ -111,7 +111,7 @@ export default function Home() {
           {/* Hero Image - Anniversary Banner */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="absolute inset-0 bg-[#D4AF37]/20 rounded-2xl blur-xl scale-105" />
+              <div className="absolute inset-0 bg-[#D4AF37]/20 rounded-2xl blur-xl scale-110" />
               <img
                 src="/images/anniversary.jpeg"
                 alt="The Koshish Kompany 1st Anniversary - Gaurav Goswami Founder & CEO"
