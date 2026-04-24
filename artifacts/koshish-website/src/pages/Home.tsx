@@ -277,7 +277,7 @@ export default function Home() {
                 <img
                   src="/images/logo.png"
                   alt="TKK Logo"
-                  className="h-[133px] w-[133px] object-contain mb-6 mx-auto"
+                  className="h-[266px] w-[266px] object-contain mb-6 mx-auto"
                 />
                 <h3 className="text-2xl font-bold text-center mb-4 font-poppins">
                   1st Anniversary Celebration
